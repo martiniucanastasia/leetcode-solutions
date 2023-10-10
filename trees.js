@@ -20,5 +20,5 @@ const tree1 = new TreeNode(1, new TreeNode(2), new TreeNode(3));
 const tree2 = new TreeNode(1, new TreeNode(2), new TreeNode(3));
 const tree3 = new TreeNode(1, new TreeNode(2), null);
 
-console.log(isSameTree(tree1, tree2)); // Output: true
-console.log(isSameTree(tree1, tree3)); // Output: false
+console.log(isSameTree(tree1, tree2));
+console.log(isSameTree(tree1, tree3));
